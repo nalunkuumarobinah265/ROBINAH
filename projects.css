@@ -1,0 +1,100 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background: #dee2e7;
+  color: #212529;
+  line-height: 1.6;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.navbar{
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.card {
+  border-radius: 0.6rem;
+  background-color: rgb(23, 166, 222);
+  color: white;
+  overflow: hidden;
+transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+}
+.card:hover{
+	background-color: red;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+}
+
+.card .card-title {
+  color: #111;
+}
+
+a.stretched-link,
+a.read-more {
+  text-decoration: none;
+  color: #0d6efd;
+}
+a.stretched-link:hover,
+a.read-more:hover {
+  text-decoration: none;
+  color: #0b5ed7;
+}
+
+h1,
+h2,
+h3 {
+  color: #0b3548;
+}
+.badge {
+  font-weight: 600;
+}
+
+.navbar-brand {
+  font-size: 1.15rem;
+}
+
+footer {
+  padding: 1.5rem 0;
+  color: #6c757d;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.work {
+  background-color: aquamarine;
+  margin-bottom: 10px;
+  }
+.btn{
+  color: white;
+  background-color: rgb(19, 19, 19);
+}
+.btn:hover{
+background-color: burlywood;
+color: white;
+}
+.navbar-nav .nav-link{
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+.navbar-nav .nav-link:hover{
+  color: rgb(230, 18, 18);
+  border-radius:10px ;
+  
+}
